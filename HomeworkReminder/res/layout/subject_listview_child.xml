@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/subject_listview_child"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/pure_white"
+    android:orientation="horizontal" 
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <RelativeLayout
+        android:id="@+id/subject_listview_child_left_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:animateLayoutChanges="true"
+        android:background="@color/transparent"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:visibility="gone" >
+
+        <ImageButton
+            android:id="@+id/subject_listview_child_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@color/transparent"
+            android:src="@drawable/ic_action_cancel_dark" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/subject_listview_child_middle_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:animateLayoutChanges="true"
+        android:background="@color/transparent"
+        android:layout_marginLeft="0dp" 
+        android:layout_marginRight="0dp" >
+
+        <LinearLayout
+            android:id="@+id/subject_listview_tv_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@color/transparent"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <TextView
+                android:id="@+id/tv_child_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/tv_subject_child_due"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center"
+                android:paddingEnd="@dimen/listview_padding"
+                android:paddingLeft="@dimen/listview_padding"
+                android:paddingRight="@dimen/listview_padding"
+                android:paddingStart="@dimen/listview_padding"
+                android:text="Task name"
+                android:textColor="@color/charcoal"
+                android:textSize="@dimen/typo_univ" />
+
+            <TextView
+                android:id="@+id/tv_subject_child_due"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="2dp"
+                android:text="Due in 1 day"
+                android:textColor="@color/charcoal"
+                android:textSize="@dimen/typo_small" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/subject_listview_child_right_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:animateLayoutChanges="true"
+        android:background="@color/transparent"
+        android:visibility="visible" >
+
+        <ImageView
+            android:id="@+id/subject_listview_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ic_action_next_item" />
+    </RelativeLayout>
+
+</LinearLayout>

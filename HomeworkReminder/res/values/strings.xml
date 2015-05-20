@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Homework Reminder</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_version">version 1.1</string>
+    <string name="contact_email">Email: hrqageneral@gamil.com\n</string>
+    
+    <string name="task_pending">Pending</string>
+    <string name="task_completed">Completed</string>
+
+    <color name="background_grey">#D9D9D9</color>
+    <color name="medium_grey">#ADADAD</color>
+    <color name="words_grey">#777777</color>
+    <color name="title_blue">#2200CC</color>
+    <color name="pure_white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="crystal">#533f51b5</color>
+    <color name="crystal_light">#263f51b5</color>
+    <color name="crystal_dark">#74FFFFFF</color>
+    <color name="charcoal">#36464f</color>
+    <color name="home_dark">#141414</color>
+    <color name="home_light">#E0E0E0</color>
+    <color name="home_title">#202020</color>
+    <color name="light_orange">#FF9C00</color>
+    <color name="teal">#0096FF</color>
+    <color name="bright_yellow">#FFFF00</color>
+    <color name="dark_blue">#00007A</color>
+    <color name="red">#FF0000</color>
+    <color name="black">#000000</color>
+    <color name="bg_green">#8FCC85</color>
+    <color name="bg_blue">#ff33b5e5</color>
+    <color name="caldroid_gray">#aaa</color>
+    <color name="half_transparent_dark">#50000000</color>
+    
+    <color name="mat_pink_ultralight">#f8bbd0</color>
+    <color name="mat_pink_superlight">#f48fb1</color>
+    <color name="mat_pink_lighter">#f06292</color>
+    <color name="mat_pink_light">#ec407a</color>
+    <color name="mat_pink_normal">#e91e63</color>
+    <color name="mat_pink_dark">#d81b60</color>
+    <color name="mat_pink_darker">#c2185b</color>
+    <color name="mat_pink_superdark">#ad1457</color>
+    <color name="mat_pink_ultradark">#880e4f</color>
+    <color name="mat_pink_A100">#ff80ab</color>
+    <color name="mat_pink_A200">#ff4081</color>
+    <color name="mat_pink_A400">#f50057</color>
+    <color name="mat_pink_A700">#c51162</color>
+    <color name="mat_pink_crystal">#43f50057</color>
+    <color name="mat_pink_crystal_light">#25f50057</color>
+    <color name="mat_pink_crystal_dark">#74f50057</color>
+    
+    <color name="mat_purple_ultralight">#e1bee7</color>
+    <color name="mat_purple_superlight">#ce93d8</color>
+    <color name="mat_purple_lighter">#ba68c8</color>
+    <color name="mat_purple_light">#ab47bc</color>
+    <color name="mat_purple_normal">#9c27b0</color>
+    <color name="mat_purple_dark">#8e24aa</color>
+    <color name="mat_purple_darker">#7b1fa2</color>
+    <color name="mat_purple_superdark">#6a1b9a</color>
+    <color name="mat_purple_ultradark">#4a148c</color>
+    <color name="mat_purple_A100">#ea80fc</color>
+    <color name="mat_purple_A200">#e040fb</color>
+    <color name="mat_purple_A400">#d500f9</color>
+    <color name="mat_purple_A700">#aa00ff</color>
+    <color name="mat_purple_crystal">#43d500f9</color>
+    <color name="mat_purple_crystal_light">#25d500f9</color>
+    <color name="mat_purple_crystal_dark">#74d500f9</color>
+    
+    <color name="mat_deep_purple_ultralight">#d1c4e9</color>
+    <color name="mat_deep_purple_superlight">#b39ddb</color>
+    <color name="mat_deep_purple_lighter">#9575cd</color>
+    <color name="mat_deep_purple_light">#7e57c2</color>
+    <color name="mat_deep_purple_normal">#673ab7</color>
+    <color name="mat_deep_purple_dark">#5e35b1</color>
+    <color name="mat_deep_purple_darker">#512da8</color>
+    <color name="mat_deep_purple_superdark">#4527a0</color>
+    <color name="mat_deep_purple_ultradark">#311b92</color>
+    <color name="mat_deep_purple_A100">#b388ff</color>
+    <color name="mat_deep_purple_A200">#7c4dff</color>
+    <color name="mat_deep_purple_A400">#651fff</color>
+    <color name="mat_deep_purple_A700">#6200ea</color>
+    <color name="mat_deep_purple_crystal">#43651fff</color>
+    <color name="mat_deep_purple_crystal_light">#25651fff</color>
+    <color name="mat_deep_purple_crystal_dark">#74651fff</color>
+    
+    <color name="mat_indigo_ultralight">#c5cae9</color>
+    <color name="mat_indigo_superlight">#9fa8da</color>
+    <color name="mat_indigo_lighter">#7986cb</color>
+    <color name="mat_indigo_light">#5c6bc0</color>
+    <color name="mat_indigo_normal">#3f51b5</color>
+    <color name="mat_indigo_dark">#3949ab</color>
+    <color name="mat_indigo_darker">#303f9f</color>
+    <color name="mat_indigo_superdark">#283593</color>
+    <color name="mat_indigo_ultradark">#1a237e</color>
+    <color name="mat_indigo_A100">#8c9eff</color>
+    <color name="mat_indigo_A200">#536dfe</color>
+    <color name="mat_indigo_A400">#3d5afe</color>
+    <color name="mat_indigo_A700">#304ffe</color>
+    <color name="mat_indigo_crystal">#433d5afe</color>
+    <color name="mat_indigo_crystal_light">#253d5afe</color>
+    <color name="mat_indigo_crystal_dark">#743d5afe</color>
+    
+    <color name="mat_blue_ultralight">#d0d9ff</color>
+    <color name="mat_blue_superlight">#afbfff</color>
+    <color name="mat_blue_lighter">#91a7ff</color>
+    <color name="mat_blue_light">#738ffe</color>
+    <color name="mat_blue_normal">#5677fc</color>
+    <color name="mat_blue_dark">#4e6cef</color>
+    <color name="mat_blue_darker">#455ede</color>
+    <color name="mat_blue_superdark">#3b50ce</color>
+    <color name="mat_blue_ultradark">#2a36b1</color>
+    <color name="mat_blue_A100">#a6baff</color>
+    <color name="mat_blue_A200">#6889ff</color>
+    <color name="mat_blue_A400">#4d73ff</color>
+    <color name="mat_blue_A700">#4d69ff</color>
+    <color name="mat_blue_crystal">#434d73ff</color>
+    <color name="mat_blue_crystal_light">#254d73ff</color>
+    <color name="mat_blue_crystal_dark">#744d73ff</color>
+    
+    <color name="mat_light_blue_ultralight">#b3e5fc</color>
+    <color name="mat_light_blue_superlight">#81d4fa</color>
+    <color name="mat_light_blue_lighter">#4fc3f7</color>
+    <color name="mat_light_blue_light">#29b6f6</color>
+    <color name="mat_light_blue_normal">#03a9f4</color>
+    <color name="mat_light_blue_dark">#039be5</color>
+    <color name="mat_light_blue_darker">#0288d1</color>
+    <color name="mat_light_blue_superdark">#0277bd</color>
+    <color name="mat_light_blue_ultradark">#01579b</color>
+    <color name="mat_light_blue_A100">#80d8ff</color>
+    <color name="mat_light_blue_A200">#40c4ff</color>
+    <color name="mat_light_blue_A400">#00b0ff</color>
+    <color name="mat_light_blue_A700">#0091ea</color>
+    <color name="mat_light_blue_crystal">#4300b0ff</color>
+    <color name="mat_light_blue_crystal_light">#2500b0ff</color>
+    <color name="mat_light_blue_crystal_dark">#7400b0ff</color>
+    
+    <color name="mat_cyan_ultralight">#b2ebf2</color>
+    <color name="mat_cyan_superlight">#80deea</color>
+    <color name="mat_cyan_lighter">#4dd0e1</color>
+    <color name="mat_cyan_light">#26c6da</color>
+    <color name="mat_cyan_normal">#00bcd4</color>
+    <color name="mat_cyan_dark">#00acc1</color>
+    <color name="mat_cyan_darker">#0097a7</color>
+    <color name="mat_cyan_superdark">#00838f</color>
+    <color name="mat_cyan_ultradark">#006064</color>
+    <color name="mat_cyan_A100">#84ffff</color>
+    <color name="mat_cyan_A200">#18ffff</color>
+    <color name="mat_cyan_A400">#00e5ff</color>
+    <color name="mat_cyan_A700">#00b8d4</color>
+    <color name="mat_cyan_crystal">#4300e5ff</color>
+    <color name="mat_cyan_crystal_light">#2500e5ff</color>
+    <color name="mat_cyan_crystal_dark">#7400e5ff</color>
+    
+    <color name="mat_teal_ultralight">#b2dfdb</color>
+    <color name="mat_teal_superlight">#80cbc4</color>
+    <color name="mat_teal_lighter">#4db6ac</color>
+    <color name="mat_teal_light">#26a69a</color>
+    <color name="mat_teal_normal">#009688</color>
+    <color name="mat_teal_dark">#00897b</color>
+    <color name="mat_teal_darker">#00796b</color>
+    <color name="mat_teal_superdark">#00695c</color>
+    <color name="mat_teal_ultradark">#004d40</color>
+    <color name="mat_teal_A100">#a7ffeb</color>
+    <color name="mat_teal_A200">#64ffda</color>
+    <color name="mat_teal_A400">#1de9b6</color>
+    <color name="mat_teal_A700">#00bfa5</color>
+    <color name="mat_teal_crystal">#431de9b6</color>
+    <color name="mat_teal_crystal_light">#251de9b6</color>
+    <color name="mat_teal_crystal_dark">#741de9b6</color>
+    
+    <color name="mat_green_ultralight">#a3e9a4</color>
+    <color name="mat_green_superlight">#72d572</color>
+    <color name="mat_green_lighter">#42bd41</color>
+    <color name="mat_green_light">#2baf2b</color>
+    <color name="mat_green_normal">#259b24</color>
+    <color name="mat_green_dark">#0a8f08</color>
+    <color name="mat_green_darker">#0a7e07</color>
+    <color name="mat_green_superdark">#056f00</color>
+    <color name="mat_green_ultradark">#0d5302</color>
+    <color name="mat_green_A100">#a2f78d</color>
+    <color name="mat_green_A200">#5af158</color>
+    <color name="mat_green_A400">#14e715</color>
+    <color name="mat_green_A700">#12c700</color>
+    <color name="mat_green_crystal">#4314e715</color>
+    <color name="mat_green_crystal_light">#2514e715</color>
+    <color name="mat_green_crystal_dark">#7414e715</color>
+    
+    <color name="mat_light_green_ultralight">#dcedc8</color>
+    <color name="mat_light_green_superlight">#c5e1a5</color>
+    <color name="mat_light_green_lighter">#aed581</color>
+    <color name="mat_light_green_light">#9ccc65</color>
+    <color name="mat_light_green_normal">#8bc34a</color>
+    <color name="mat_light_green_dark">#7cb342</color>
+    <color name="mat_light_green_darker">#689f38</color>
+    <color name="mat_light_green_superdark">#558b2f</color>
+    <color name="mat_light_green_ultradark">#33691e</color>
+    <color name="mat_light_green_A100">#ccff90</color>
+    <color name="mat_light_green_A200">#b2ff59</color>
+    <color name="mat_light_green_A400">#76ff03</color>
+    <color name="mat_light_green_A700">#64dd17</color>
+    <color name="mat_light_green_crystal">#4376ff03</color>
+    <color name="mat_light_green_crystal_light">#2576ff03</color>
+    <color name="mat_light_green_crystal_dark">#7476ff03</color>
+    
+    <color name="mat_lime_ultralight">#f0f4c3</color>
+    <color name="mat_lime_superlight">#e6ee9c</color>
+    <color name="mat_lime_lighter">#dce775</color>
+    <color name="mat_lime_light">#d4e157</color>
+    <color name="mat_lime_normal">#cddc39</color>
+    <color name="mat_lime_dark">#c0ca33</color>
+    <color name="mat_lime_darker">#afb42b</color>
+    <color name="mat_lime_superdark">#9e9d24</color>
+    <color name="mat_lime_ultradark">#827717</color>
+    <color name="mat_lime_A100">#f4ff81</color>
+    <color name="mat_lime_A200">#eeff41</color>
+    <color name="mat_lime_A400">#c6ff00</color>
+    <color name="mat_lime_A700">#aeea00</color>
+    <color name="mat_lime_crystal">#43c6ff00</color>
+    <color name="mat_lime_crystal_light">#25c6ff00</color>
+    <color name="mat_lime_crystal_dark">#74c6ff00</color>
+    
+    <color name="mat_yellow_ultralight">#fff9c4</color>
+    <color name="mat_yellow_superlight">#fff59d</color>
+    <color name="mat_yellow_lighter">#fff176</color>
+    <color name="mat_yellow_light">#ffee58</color>
+    <color name="mat_yellow_normal">#ffeb3b</color>
+    <color name="mat_yellow_dark">#fdd835</color>
+    <color name="mat_yellow_darker">#fbc02d</color>
+    <color name="mat_yellow_superdark">#f9a825</color>
+    <color name="mat_yellow_ultradark">#f57f17</color>
+    <color name="mat_yellow_A100">#ffff8d</color>
+    <color name="mat_yellow_A200">#ffff00</color>
+    <color name="mat_yellow_A400">#ffea00</color>
+    <color name="mat_yellow_A700">#ffd600</color>
+    <color name="mat_yellow_crystal">#43ffeb3b</color>
+    <color name="mat_yellow_crystal_light">#25ffeb3b</color>
+    <color name="mat_yellow_crystal_dark">#74ffeb3b</color>
+    
+    <color name="mat_orange_ultralight">#ffe0b2</color>
+    <color name="mat_orange_superlight">#ffcc80</color>
+    <color name="mat_orange_lighter">#ffb74d</color>
+    <color name="mat_orange_light">#ffa726</color>
+    <color name="mat_orange_normal">#ff9800</color>
+    <color name="mat_orange_dark">#fb8c00</color>
+    <color name="mat_orange_darker">#f57c00</color>
+    <color name="mat_orange_superdark">#ef6c00</color>
+    <color name="mat_orange_ultradark">#e65100</color>
+    <color name="mat_orange_A100">#ffd180</color>
+    <color name="mat_orange_A200">#ffab40</color>
+    <color name="mat_orange_A400">#ff9100</color>
+    <color name="mat_orange_A700">#ff6d00</color>
+    <color name="mat_orange_crystal">#43ff9100</color>
+    <color name="mat_orange_crystal_light">#25ff9100</color>
+    <color name="mat_orange_crystal_dark">#74ff9100</color>
+    
+    <color name="mat_deep_orange_ultralight">#ffccbc</color>
+    <color name="mat_deep_orange_superlight">#ffab91</color>
+    <color name="mat_deep_orange_lighter">#ff8a65</color>
+    <color name="mat_deep_orange_light">#ff7043</color>
+    <color name="mat_deep_orange_normal">#ff5722</color>
+    <color name="mat_deep_orange_dark">#f4511e</color>
+    <color name="mat_deep_orange_darker">#e64a19</color>
+    <color name="mat_deep_orange_superdark">#d84315</color>
+    <color name="mat_deep_orange_ultradark">#bf360c</color>
+    <color name="mat_deep_orange_A100">#ff9e80</color>
+    <color name="mat_deep_orange_A200">#ff6e40</color>
+    <color name="mat_deep_orange_A400">#ff3d00</color>
+    <color name="mat_deep_orange_A700">#dd2c00</color>
+    <color name="mat_deep_orange_crystal">#43ff3d00</color>
+    <color name="mat_deep_orange_crystal_light">#25ff3d00</color>
+    <color name="mat_deep_orange_crystal_dark">#74ff3d00</color>
+    
+    <color name="mat_brown_ultralight">#d7ccc8</color>
+    <color name="mat_brown_superlight">#bcaaa4</color>
+    <color name="mat_brown_lighter">#a1887f</color>
+    <color name="mat_brown_light">#8d6e63</color>
+    <color name="mat_brown_normal">#795548</color>
+    <color name="mat_brown_dark">#6d4c41</color>
+    <color name="mat_brown_darker">#5d4037</color>
+    <color name="mat_brown_superdark">#4e342e</color>
+    <color name="mat_brown_crystal">#43795548</color>
+    <color name="mat_brown_crystal_light">#25795548</color>
+    <color name="mat_brown_crystal_dark">#74795548</color>
+    
+    <color name="mat_grey_ultralight">#f5f5f5</color>
+    <color name="mat_grey_superlight">#eeeeee</color>
+    <color name="mat_grey_lighter">#e0e0e0</color>
+    <color name="mat_grey_light">#bdbdbd</color>
+    <color name="mat_grey_normal">#9e9e9e</color>
+    <color name="mat_grey_dark">#757575</color>
+    <color name="mat_grey_darker">#616161</color>
+    <color name="mat_grey_superdark">#424242</color>
+    <color name="mat_grey_ultradark">#212121</color>
+    <color name="mat_grey_crystal">#439e9e9e</color>
+    <color name="mat_grey_crystal_light">#259e9e9e</color>
+    <color name="mat_grey_crystal_dark">#749e9e9e</color>
+    
+    <color name="mat_blue_grey_ultralight">#cfd8dc</color>
+    <color name="mat_blue_grey_superlight">#b0bec5</color>
+    <color name="mat_blue_grey_lighter">#90a4ae</color>
+    <color name="mat_blue_grey_light">#78909c</color>
+    <color name="mat_blue_grey_normal">#607d8b</color>
+    <color name="mat_blue_grey_dark">#546e7a</color>
+    <color name="mat_blue_grey_darker">#455a64</color>
+    <color name="mat_blue_grey_superdark">#37474f</color>
+    <color name="mat_blue_grey_ultradark">#263238</color>
+    <color name="mat_blue_grey_crystal">#43607d8b</color>
+    <color name="mat_blue_grey_crystal_light">#25607d8b</color>
+    <color name="mat_blue_grey_crystal_dark">#74607d8b</color>
+    
+    <!-- the theme applied to the application or activity -->
+    <style name="CustomActionBarTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:actionBarTabStyle">@style/MyActionBarTabs</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/mat_indigo_superdark</item>
+        <item name="android:titleTextStyle">@style/ActionBarTitleSize</item>
+    </style>
+
+    <style name="ActionBarTitleSize" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/pure_white</item>
+    </style>
+
+    <style name="MyActionBarTabs" parent="@android:style/Widget.Holo.ActionBar.TabView">
+
+        <!-- tab indicator -->
+        <item name="android:background">@color/dark_blue</item>
+        <item name="android:textColor">@color/pure_white</item>
+    </style>
+
+    <style name="ButtonBarButton" parent="@android:style/Widget.Holo.Button.Borderless">
+        <item name="android:textColor">@android:color/primary_text_light</item>
+    </style>
+
+    <style name="ButtonBar" parent="@android:style/Holo.Light.ButtonBar.AlertDialog"></style>
+
+    <string-array name="type_array">
+        <item>Homework</item>
+        <item>Lab</item>
+        <item>Exam</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="type_array_linked">
+        <item>Homework</item>
+        <item>Lab</item>
+        <item>Exam</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="subject_array">
+        <item>Default subject</item>
+        <item>Create new</item>
+    </string-array>
+    <string-array name="reminder_select_array">
+        <item>3 weeks before</item>
+        <item>2 weeks before</item>
+        <item>1 week before</item>
+        <item>3 days before</item>
+        <item>2 days before</item>
+        <item>24 hours before</item>
+        <item>12 hours before</item>
+        <item>8 hours before</item>
+        <item>4 hours before</item>
+        <item>2 hours before</item>
+        <item>1 hour before</item>
+        <item>30 minutes before</item>
+        <item>10 minutes before</item>
+    </string-array>
+    <string-array name="home_drawer">
+        <item>Upcoming </item>
+        <item>Subjects </item>
+        <item>View all </item>
+        <item>Calendar </item>
+        <item>Completed </item>
+    </string-array>
+
+    <string name="drawer_open">OPEN_DRAWER</string>
+    <string name="drawer_close">CLOSE_DRAWER</string>
+    <string name="settings_title">Settings</string>
+    <string name="add_title">New Task</string>
+    <string name="pref_app_settings">App settings</string>
+    <string name="pref_reminder_sound_enable">Reminder sound</string>
+    <string name="pref_reminder_sound_enable_summary">Enable reminder sound</string>
+
+    <string-array name="default_reminder_values">
+        <item>1 </item>
+        <item>2 </item>
+        <item>3 </item>
+        <item>7 </item>
+    </string-array>
+    <string-array name="default_reminder">
+        <item>1 day before the due time </item>
+        <item>2 days before the due time </item>
+        <item>3 days before the due time </item>
+        <item>1 week before the due time </item>
+    </string-array>
+    <string-array name="interval_array">
+        <item>Every week </item>
+        <item>Every two weeks </item>
+        <item>Every three weeks</item>
+        <item>Every day </item>
+        <item>Every two days </item>
+        <item>Every three days </item>
+        <item>Every four days </item>
+        <item>Every five days </item>
+    </string-array>
+    <string-array name="amount_array">
+        <item>2 </item>
+        <item>3 </item>
+        <item>4 </item>
+        <item>5 </item>
+        <item>6 </item>
+        <item>7 </item>
+        <item>8 </item>
+        <item>9 </item>
+        <item>10 </item>
+        <item>11 </item>
+        <item>12 </item>
+        <item>13 </item>
+        <item>14 </item>
+        <item>15 </item>
+        <item>16 </item>
+        <item>17 </item>
+        <item>18 </item>
+        <item>19 </item>
+        <item>20 </item>
+        <item>25 </item>
+        <item>30 </item>
+        <item>35 </item>
+        <item>40 </item>
+        <item>45 </item>
+        <item>50 </item>
+    </string-array>
+        <string-array name="indexing_array">
+        <item>Disable indexing </item>
+        <item>Start from 0 </item>
+        <item>Start from 1 </item>
+    </string-array>
+
+    <string-array name="postlab_array">
+        <item>Not specified </item>
+        <item>1 day after the lab </item>
+        <item>2 days after the lab </item>
+        <item>3 days after the lab </item>
+        <item>1 week after the lab </item>
+        <item>2 weeks after the lab </item>
+        <item>3 weeks after the lab </item>
+    </string-array>
+    <string name="pref_startup_screen_title">Choose startup screen</string>
+    <string name="pref_startup_screen_summary">When the App launches, go to </string>
+    <string name="pref_upcoming_date_title">Upcoming task(s) customization </string>
+    <string name="pref_default_reminder">Default reminder</string>
+    <string name="pref_default_reminder_summary">Set a default reminder</string>
+	<item type="id" name="reminder_set_spinner_1"></item>
+	<item type="id" name="reminder_set_spinner_2"></item>
+	<item type="id" name="reminder_set_spinner_3"></item>
+	<item type="id" name="reminder_set_spinner_4"></item>
+	
+	<item type="id" name="reminder_delete_1"></item>
+	<item type="id" name="reminder_delete_2"></item>
+	<item type="id" name="reminder_delete_3"></item>
+	<item type="id" name="reminder_delete_4"></item>
+	<string-array name="startup_entries">
+        <item>Upcoming</item>
+        <item>Subjects</item>
+        <item>View all</item>
+        <item>Calendar</item>
+        <item>Completed</item>
+    </string-array>
+    <string-array name="startup_entryValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    
+    <string-array name="upcoming_date_entries">
+        <item>Display task(s) due in the next 3 days</item>
+        <item>Display task(s) due in the next 5 days</item>
+        <item>Display task(s) due in the next 7 days</item>
+        <item>Display task(s) due in the next 14 days</item>
+        <item>Display task(s) due in the next 21 days</item>
+    </string-array>
+    <string-array name="upcoming_date_entryValues">
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>14</item>
+        <item>21</item>
+    </string-array>
+	
+	<string name="swipelistview_license">
+		Copyright 2014 Xuefei Han\n
+		Licensed under the Apache License, Version 2.0 (the "License");
+		you may not use this file except in compliance with the License.
+		You may obtain a copy of the License at
+		http://www.apache.org/licenses/LICENSE-2.0
+ 		\n
+		Unless required by applicable law or agreed to in writing, software
+		distributed under the License is distributed on an "AS IS" BASIS,
+		WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+		See the License for the specific language governing permissions and
+		limitations under the License.
+	</string>
+	
+	<string name="text_islinked">Repeating task</string>
+	<string name="text_linked_amount">Amount:</string>
+	<string name="text_linked_interval">Interval:</string>
+	<string name="text_linked_autoindex">Indexing:</string>
+	<string name="text_save">Save</string>
+	<string name="text_ok">OK</string>
+	<string name="text_cancel">Cancel</string>
+	<string name="text_edit">Edit</string>
+	<string name="text_delete">Delete</string>
+	<string name="text_yes">Yes</string>
+	<string name="text_no">No</string>
+	
+	<string name="dialog_LinkedChange_title">Editing Repeating Tasks</string>
+	<string name="dialog_LinkedChange_DuedateChange">You are changing the due date of a repeating task, would you like to reflect this change to its following task(s) to maintain the original interval?</string>
+	<string name="dialog_LinkedChange_ContentChange">Apply changes to future occurrences? (Changes in Name and Notes will not be applied)</string>
+	<string name="dialog_LinkedDelete_title">Deleting Repeating Tasks</string>
+	<string name="dialog_LinkedDelete_ContentChange">Delete all repeating tasks?</string>
+	
+	<string name="dialog_linked_save_title">Save tasks</string>
+	<string name="dialog_linked_save_msg">Saving</string>
+	<string name="dialog_linked_delete_title">Delete tasks</string>
+	<string name="dialog_linked_delete_msg">Deleting</string>
+	
+	<string name="add_new_subject">New Subject</string>
+	
+	<string name="color_default">Default</string>
+	<string name="color_green">Green</string>
+	<string name="color_blue">Blue</string>
+	<string name="color_orange">Orange</string>
+	<string name="color_yellow">Yellow</string>
+	<string name="color_lime">Lime</string>
+	<string name="color_purple">Purple</string>
+	<string name="color_grey">Grey</string>
+	<string name="color_pink">Pink</string>
+	<string name="color_teal">Navy</string>
+	
+	<string name="pref_color_scheme_title">Color scheme</string>
+	
+	<string-array name="color_scheme_entries">
+	    <item>Default</item>
+	    <item>Green</item>
+	    <item>Blue</item>
+	    <item>Orange</item>
+	    <item>Yellow</item>
+	    <item>Lime</item>
+	    <item>Purple</item>
+	    <item>Grey</item>
+	    <item>Pink</item>
+	    <item>Navy</item>
+	</string-array>
+	
+	<string name="extension_no_completed_task">You don\'t have any completed task(s)</string>
+	<string name="extension_no_task">You don\'t have any task(s)</string>
+</resources>

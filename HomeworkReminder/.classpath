@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="com/example/homeworkreminder/Home.java|com/example/homeworkreminder/AddSingleTask.java|com/example/homeworkreminder/Settings.java|com/example/homeworkreminder/SideMenuContainer.java|database/DBAdapter.java|database/DBOperations.java|com/example/homeworkreminder/AlarmTask.java|com/example/homeworkreminder/AlarmHolder.java|com/example/homeworkreminder/AlarmData.java|com/example/homeworkreminder/ItemRow.java|com/example/homeworkreminder/SubjectArray.java|com/example/homeworkreminder/AddFragment.java|com/homeworkreminder/BluetoothActivity.java" kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="src" path="/library"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/main"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/MPChartLib"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

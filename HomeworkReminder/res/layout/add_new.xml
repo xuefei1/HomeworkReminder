@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/outer_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pure_white"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollview_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent" >
+
+        <LinearLayout
+            android:id="@+id/section0_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:animateLayoutChanges="true"
+            android:background="@color/transparent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/spacing_padding"
+            android:paddingTop="@dimen/spacing_padding" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:paddingEnd="@dimen/title_padding"
+                android:paddingLeft="@dimen/title_padding"
+                android:paddingRight="@dimen/title_padding"
+                android:paddingStart="@dimen/title_padding"
+                android:text="Name:"
+                android:textColor="@color/mat_grey_superdark"
+                android:textSize="@dimen/typo_title"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/element_padding"
+                android:layout_marginRight="@dimen/element_padding"
+                android:hint="Name of the task"
+                android:maxLength="20"
+                android:textColor="@color/mat_grey_superdark"
+                android:textSize="@dimen/typo_large" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:paddingEnd="@dimen/title_padding"
+                android:paddingLeft="@dimen/title_padding"
+                android:paddingRight="@dimen/title_padding"
+                android:paddingStart="@dimen/title_padding"
+                android:paddingTop="@dimen/spacing_padding"
+                android:text="Type:"
+                android:textColor="@color/mat_grey_superdark"
+                android:textSize="@dimen/typo_title"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/type_spinner"
+                style="@android:style/Widget.Holo.Light.Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/element_padding"
+                android:layout_marginRight="@dimen/element_padding"
+                android:spinnerMode="dropdown"
+                android:textColor="@drawable/custom_add_page_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:paddingEnd="@dimen/title_padding"
+                android:paddingLeft="@dimen/title_padding"
+                android:paddingRight="@dimen/title_padding"
+                android:paddingStart="@dimen/title_padding"
+                android:paddingTop="@dimen/spacing_padding"
+                android:text="Subject:"
+                android:textColor="@color/mat_grey_superdark"
+                android:textSize="@dimen/typo_title"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/subject_spinner"
+                style="@android:style/Widget.Holo.Light.Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/element_padding"
+                android:layout_marginRight="@dimen/element_padding"
+                android:spinnerMode="dropdown"
+                android:textColor="@drawable/custom_add_page_text" />
+
+            <TextView
+                android:id="@+id/tv_due"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:paddingEnd="@dimen/title_padding"
+                android:paddingLeft="@dimen/title_padding"
+                android:paddingRight="@dimen/title_padding"
+                android:paddingStart="@dimen/title_padding"
+                android:paddingTop="@dimen/spacing_padding"
+                android:text="Due:"
+                android:textColor="@color/mat_grey_superdark"
+                android:textSize="@dimen/typo_title"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/spacing_padding"
+                android:paddingTop="10dp" >
+
+                <Button
+                    android:id="@+id/date_picker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="@dimen/element_padding"
+                    android:layout_marginRight="12dp"
+                    android:layout_weight="65"
+                    android:background="@drawable/picker_selector"
+                    android:gravity="center"
+                    android:text="Button"
+                    android:textColor="@color/pure_white"
+                    android:textSize="@dimen/typo_univ"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/time_picker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="@dimen/element_padding"
+                    android:layout_weight="35"
+                    android:background="@drawable/picker_selector"
+                    android:gravity="center"
+                    android:text="Button"
+                    android:textColor="@color/pure_white"
+                    android:textSize="@dimen/typo_univ"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <Switch
+                android:id="@+id/reminder_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:enabled="true"
+                android:paddingEnd="@dimen/title_padding"
+                android:paddingLeft="@dimen/title_padding"
+                android:paddingRight="@dimen/title_padding"
+                android:paddingStart="@dimen/title_padding"
+                android:paddingTop="@dimen/spacing_padding"
+                android:text="Reminder:"
+                android:textColor="@color/mat_grey_superdark"
+                android:textSize="@dimen/typo_title"
+                android:textStyle="bold"
+                android:thumb="@drawable/switch_thumb" />
+
+            <LinearLayout
+                android:id="@+id/default_reminder_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/element_padding"
+                android:layout_marginRight="@dimen/element_padding"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/spacing_padding"
+                android:visibility="gone" >
+
+                <Spinner
+                    android:id="@+id/default_reminder_select_spinner"
+                    style="@android:style/Widget.Holo.Light.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/element_padding"
+                    android:layout_marginRight="@dimen/element_padding"
+                    android:layout_weight="80"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:spinnerMode="dialog"
+                    android:textColor="@drawable/custom_add_page_text" />
+
+                <ImageButton
+                    android:id="@+id/add_new_reminder_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="20"
+                    android:background="@color/transparent"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:src="@drawable/bt_add_reminder" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/extra_reminder_container_0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/element_padding"
+                android:layout_marginRight="@dimen/element_padding"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/spacing_padding"
+                android:visibility="gone" >
+
+                <Spinner
+                    android:id="@+id/extra_reminder_select_spinner_0"
+                    style="@android:style/Widget.Holo.Light.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/element_padding"
+                    android:layout_marginRight="@dimen/element_padding"
+                    android:layout_weight="80"
+                    android:spinnerMode="dialog"
+                    android:textColor="@drawable/custom_add_page_text" />
+
+                <ImageButton
+                    android:id="@+id/remove_extra_reminder_0_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="20"
+                    android:background="@color/transparent"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:src="@drawable/bt_remove_reminder" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/extra_reminder_container_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/element_padding"
+                android:layout_marginRight="@dimen/element_padding"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/spacing_padding"
+                android:visibility="gone" >
+
+                <Spinner
+                    android:id="@+id/extra_reminder_select_spinner_1"
+                    style="@android:style/Widget.Holo.Light.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/element_padding"
+                    android:layout_marginRight="@dimen/element_padding"
+                    android:layout_weight="80"
+                    android:spinnerMode="dialog"
+                    android:textColor="@drawable/custom_add_page_text" />
+
+                <ImageButton
+                    android:id="@+id/remove_extra_reminder_1_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="20"
+                    android:background="@color/transparent"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:src="@drawable/bt_remove_reminder" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/spacing_padding"
+                android:background="@color/transparent" />
+            <!-- linked section -->
+
+            <Switch
+                android:id="@+id/islinked_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:checked="false"
+                android:paddingEnd="@dimen/title_padding"
+                android:paddingLeft="@dimen/title_padding"
+                android:paddingRight="@dimen/title_padding"
+                android:paddingStart="@dimen/title_padding"
+                android:paddingTop="@dimen/spacing_padding"
+                android:text="@string/text_islinked"
+                android:textColor="@color/mat_grey_superdark"
+                android:textSize="@dimen/typo_title"
+                android:textStyle="bold"
+                android:thumb="@drawable/switch_thumb" />
+
+            <LinearLayout
+                android:id="@+id/linked_info_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/element_padding"
+                android:layout_marginRight="@dimen/element_padding"
+                android:orientation="vertical"
+				android:layout_marginTop="@dimen/small_spacing_padding"
+                android:visibility="visible" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/tv_linked_amount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="@dimen/element_padding"
+                        android:layout_marginTop="@dimen/spacing_padding"
+                        android:gravity="start"
+                        android:text="@string/text_linked_amount"
+                        android:textColor="@color/mat_grey_superdark"
+                        android:textSize="@dimen/typo_univ"
+                        android:textStyle="normal" />
+
+                    <Spinner
+                        android:id="@+id/linked_amount_spinner"
+                        style="@android:style/Widget.Holo.Light.Spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@id/tv_linked_amount"
+                        android:layout_marginLeft="@dimen/element_padding"
+                        android:layout_toRightOf="@id/tv_linked_amount"
+                        android:spinnerMode="dropdown"
+                        android:textColor="@drawable/custom_add_page_text" />
+
+                    <TextView
+                        android:id="@+id/tv_linked_interval"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/tv_linked_amount"
+                        android:layout_marginLeft="@dimen/element_padding"
+                        android:layout_marginTop="@dimen/large_spacing_padding"
+                        android:gravity="start"
+                        android:text="@string/text_linked_interval"
+                        android:textColor="@color/mat_grey_superdark"
+                        android:textSize="@dimen/typo_univ"
+                        android:textStyle="normal" />
+
+                    <Spinner
+                        android:id="@+id/linked_interval_spinner"
+                        style="@android:style/Widget.Holo.Light.Spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@id/tv_linked_interval"
+                        android:layout_alignLeft="@id/linked_amount_spinner"
+                        android:layout_below="@id/linked_amount_spinner"
+                        android:layout_toRightOf="@id/tv_linked_interval"
+                        android:spinnerMode="dropdown"
+                        android:textColor="@drawable/custom_add_page_text" />
+
+                    <TextView
+                        android:id="@+id/tv_linked_autoindex"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/tv_linked_interval"
+                        android:layout_marginLeft="@dimen/element_padding"
+                        android:layout_marginTop="@dimen/large_spacing_padding"
+                        android:gravity="start"
+                        android:text="@string/text_linked_autoindex"
+                        android:textColor="@color/mat_grey_superdark"
+                        android:textSize="@dimen/typo_univ"
+                        android:textStyle="normal" />
+
+                    <Spinner
+                        android:id="@+id/linked_autoindex_spinner"
+                        style="@android:style/Widget.Holo.Light.Spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@id/tv_linked_autoindex"
+                        android:layout_alignLeft="@id/linked_amount_spinner"
+                        android:layout_below="@id/linked_interval_spinner"
+                        android:layout_toRightOf="@id/tv_linked_autoindex"
+                        android:spinnerMode="dropdown"
+                        android:textColor="@drawable/custom_add_page_text" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/spacing_padding"
+                        android:layout_below="@id/tv_linked_autoindex"
+                        android:background="@color/transparent" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- Animation enabled section -->
+
+            <LinearLayout
+                android:id="@+id/section1_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/transparent"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/spacing_padding" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:paddingEnd="@dimen/title_padding"
+                    android:paddingLeft="@dimen/title_padding"
+                    android:paddingRight="@dimen/title_padding"
+                    android:paddingStart="@dimen/title_padding"
+                    android:text="Notes:"
+                    android:textColor="@color/mat_grey_superdark"
+                    android:textSize="@dimen/typo_title"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_notes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/element_padding"
+                    android:layout_marginRight="@dimen/element_padding"
+                    android:hint="Optional"
+                    android:inputType="textMultiLine"
+                    android:textColor="@color/mat_grey_superdark"
+                    android:textSize="@dimen/typo_large" />
+
+                <LinearLayout
+                    android:id="@+id/postlab_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/spacing_padding"
+                    android:visibility="visible" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:paddingEnd="@dimen/title_padding"
+                        android:paddingLeft="@dimen/title_padding"
+                        android:paddingRight="@dimen/title_padding"
+                        android:paddingStart="@dimen/title_padding"
+                        android:text="Postlab due:"
+                        android:textColor="@color/mat_grey_superdark"
+                        android:textSize="@dimen/typo_title"
+                        android:textStyle="bold" />
+
+                    <Spinner
+                        android:id="@+id/postlab_spinner"
+                        style="@android:style/Widget.Holo.Light.Spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/element_padding"
+                        android:layout_marginRight="@dimen/element_padding"
+                        android:spinnerMode="dropdown"
+                        android:textColor="@drawable/custom_add_page_text" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

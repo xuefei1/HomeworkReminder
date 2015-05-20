@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory 
+        android:title="@string/pref_app_settings"
+        >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="Reminder_Sound_Enable"
+            android:title="@string/pref_reminder_sound_enable"
+            android:summary="@string/pref_reminder_sound_enable_summary"
+            />
+        <ListPreference
+            android:key="Startup_screen"
+            android:title="@string/pref_startup_screen_title"
+            android:summary="@string/pref_startup_screen_summary"
+            android:entries="@array/startup_entries"
+            android:entryValues="@array/startup_entryValues"
+            android:defaultValue="0"
+            />
+        <ListPreference
+            android:key="Upcoming_date"
+            android:title="@string/pref_upcoming_date_title"
+            android:summary="%s"
+            android:entries="@array/upcoming_date_entries"
+            android:entryValues="@array/upcoming_date_entryValues"
+            android:defaultValue="7"   
+            />
+        <ListPreference 
+            android:key="Color_scheme"
+            android:title="@string/pref_color_scheme_title"
+            android:entries="@array/color_scheme_entries"
+            android:entryValues="@array/color_scheme_entries"
+            android:defaultValue="Default"
+            android:summary="%s"
+            />
+        <Preference 
+            android:key="Clear_all"
+            android:title="Clear all data"
+            />
+        <Preference 
+            android:key="Clear_completed"
+            android:title="Clear completed tasks"
+            />
+        <Preference 
+            android:key="About"
+            android:title="About this App"
+            />
+    </PreferenceCategory>
+	
+    
+</PreferenceScreen>

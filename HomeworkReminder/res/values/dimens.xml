@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="fragment_padding">5dp</dimen>
+    <dimen name="container_padding">16dp</dimen>
+    <dimen name="no_padding">0dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="drawer_width">260dp</dimen>
+    <dimen name="typo_univ">15sp</dimen>
+    <dimen name="typo_title">15sp</dimen>
+    <dimen name="small_spacing_padding">10dp</dimen>
+    <dimen name="spacing_padding">16dp</dimen>
+    <dimen name="large_spacing_padding">24dp</dimen>
+    <dimen name="listview_padding">18dp</dimen>
+    <dimen name="pref_button_padding">10dp</dimen>
+    <dimen name="title_padding">20dp</dimen>
+    <dimen name="element_padding">26dp</dimen>
+    <dimen name="typo_large">16sp</dimen>
+    <dimen name="typo_small">13sp</dimen>
+    <dimen name="typo_exlarge">20sp</dimen>
+    <dimen name="typical_padding">12dp</dimen>
+
+</resources>

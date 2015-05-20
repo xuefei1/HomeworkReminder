@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/crystal"
+    android:padding="5dp"
+    android:animateLayoutChanges="true"
+    >
+    
+    <LinearLayout
+        android:id="@+id/widget_title_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/crystal_light"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_marginBottom="5dp"
+        android:animateLayoutChanges="true"
+        >
+
+        <TextView
+            android:id="@+id/widget_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upcoming Tasks"
+            android:textColor="@color/pure_white"
+            android:textSize="13sp" />
+        
+    </LinearLayout>
+    
+    <LinearLayout   
+        android:id="@+id/widget_content_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/crystal_light"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:animateLayoutChanges="true"
+        android:gravity="center">
+		<TextView
+            android:id="@+id/widget_no_task_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Upcoming Task(s)"
+            android:textColor="@color/pure_white"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:visibility="gone" />
+		<ListView 
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:id="@+id/widget_listview"
+		    android:animateLayoutChanges="true"
+		    android:visibility="gone"
+		    ></ListView>
+        </LinearLayout>
+
+</LinearLayout>

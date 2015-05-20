@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/pure_white"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:id="@+id/divider_0"
+        android:layout_below="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/mat_grey_lighter" 
+        android:layout_marginBottom="25dp"/>
+
+    <!--  
+    <ScrollView
+        android:layout_below="@id/divider_0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+	 >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/mat_grey_lighter" />
+
+            <LinearLayout
+                android:id="@+id/clear_all_data_button_container"
+                style="android:attr/buttonBarStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/clear_all_data_button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Clear all data"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/typo_large" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/mat_grey_lighter" />
+
+            <LinearLayout
+                android:id="@+id/clear_all_completed_button_container"
+                style="android:attr/buttonBarStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/clear_all_completed_button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Clear completed tasks"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/typo_large" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/mat_grey_lighter" />
+
+            <LinearLayout
+                android:id="@+id/about_button_container"
+                style="android:attr/buttonBarStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/about_button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="About this App"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/typo_large" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/mat_grey_lighter" />
+        </LinearLayout>
+    </ScrollView>
+	-->
+</RelativeLayout>

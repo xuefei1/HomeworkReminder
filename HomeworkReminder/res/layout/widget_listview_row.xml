@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_list_row_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:orientation="horizontal" >
+
+   <LinearLayout
+        android:id="@+id/widget_checkbox_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:animateLayoutChanges="true"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+	 >
+
+        <ImageButton
+            android:id="@+id/widget_complete_btn"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/ic_action_accept"
+            android:contentDescription="Complete"
+            android:layout_gravity="center"
+            android:drawablePadding="10dp"
+			 />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/widget_list_textview_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@id/widget_checkbox_container"
+        android:layout_toRightOf="@id/widget_checkbox_container"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/widget_tv_taskname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Task Name"
+            android:textColor="@color/pure_white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/widget_tv_due"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Due in 7 days"
+            android:textColor="@color/pure_white"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <!--  
+    <RelativeLayout
+        android:id="@+id/widget_btn_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/mat_indigo_superdark"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/widget_delete_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/ic_action_discard_white"
+            android:contentDescription="Delete"
+            android:drawablePadding="20dp"
+            android:padding="20dp" />
+
+        <ImageButton
+            android:id="@+id/widget_edit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_action_edit"
+            android:contentDescription="Edit"
+            android:drawablePadding="20dp"
+            android:padding="20dp" />
+
+        <ImageButton
+            android:id="@+id/widget_ok_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ic_action_accept"
+            android:contentDescription="Ok"
+            android:drawablePadding="20dp"
+            android:padding="20dp" />
+    </RelativeLayout>
+-->
+</RelativeLayout>

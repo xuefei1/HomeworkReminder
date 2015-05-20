@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/add_action_bar_custom"
+    style="?android:attr/buttonBarStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/mat_indigo_superdark"
+    android:orientation="horizontal" >
+
+  
+    <Button
+        android:id="@+id/cancel_btn"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:drawablePadding="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:textColor="@color/pure_white"
+        android:text="Cancel" />
+    <!--
+    <LinearLayout
+        android:id="@+id/cancel_btn"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_gravity="center" >
+
+        <ImageView
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0000"
+            android:clickable="false"
+            android:src="@drawable/ic_action_cancel" 
+            android:padding="10dp"/>
+
+        <TextView
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0000"
+            android:clickable="false"
+            android:text="Cancel"
+            android:paddingRight="10dp"
+            android:paddingLeft="0dp" />
+    </LinearLayout>
+    	-->
+        <!--  
+    <LinearLayout
+        android:id="@+id/save_btn"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <ImageView
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0000"
+            android:clickable="false"
+            android:src="@drawable/ic_action_accept"
+            android:padding="10dp" />
+
+        <TextView
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0000"
+            android:clickable="false"
+            android:text="Save" 
+            android:paddingRight="10dp"
+            android:paddingLeft="0dp"/>
+    </LinearLayout>
+	-->
+
+    <Button
+        android:id="@+id/save_btn"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layout_weight="1"
+        android:drawablePadding="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:textColor="@color/pure_white"
+        android:text="Save" />
+
+</LinearLayout>
